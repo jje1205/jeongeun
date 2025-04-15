@@ -5327,7 +5327,7 @@ body {
   .main-new-page-wrap .banner-container .banner {
     position: relative;
     width: 100%;
-    aspect-ratio: auto 343 / 290;
+    aspect-ratio: auto 343 / 402;
     overflow: hidden;
     padding: 4px 16px;
     display: flex;
@@ -9527,7 +9527,7 @@ body {
     overflow: hidden;
     flex:1;
     min-width: calc((100% - 32px) / 3);
-    height: 113.67px;
+    height: 114px;
   }
   
   .review-container .product-list li a {
