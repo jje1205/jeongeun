@@ -5447,9 +5447,9 @@ body {
     grid-column: 1 / 3;
   }
 
-  .main-new-page-wrap .main-sub-title strong {
+  .main-new-page-wrap .main-sub-title .title {
     display: block;
-    color: #000000;
+    color: #000;
     align-items: center;
     white-space: nowrap;
     overflow: hidden;
