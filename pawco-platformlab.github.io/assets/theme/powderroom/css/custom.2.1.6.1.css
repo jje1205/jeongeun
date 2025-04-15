@@ -9544,10 +9544,16 @@ body {
     height: auto;
   }
   
-  @media (min-width: 376px) and (max-width: 500px) {
+  @media (min-width: 376px) {
     .review-container .product-list li {
       height: auto;
       aspect-ratio: 1 / 1;
+    }
+  }
+  
+  @media (min-width: 500px) {
+    .review-container .product-list li {
+      height: 155.33px;
     }
   }
 
