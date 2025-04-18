@@ -1420,8 +1420,9 @@
     </style>
     <link href="https://cdn.jsdelivr.net/npm/jquery.rateit@1.1.6/scripts/rateit.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css">
-    <link rel="stylesheet" href="/assets/theme/powderroom/css/style.2.0.8.css">
-    <link rel="stylesheet" href="/assets/theme/powderroom/css/custom.2.1.5.6.css">
+    <link rel="stylesheet" href="/assets/theme/powderroom/css/style.2.1.0.css">
+    <link rel="stylesheet" href="/assets/theme/powderroom/css/custom.2.1.8.css">
+    
     <style nonce="d3zO3xs1D/LRjKXBV/Ah0Q==">
         @viewport {
             zoom: 1;
@@ -1562,6 +1563,7 @@
                         padding: 0; 
                         margin: 0;
                     }
+
                     .common-wrap.full-page .floating-footer button.on {
                         background-color: #FF43CA;
                     }
@@ -1569,7 +1571,7 @@
                     .common-wrap.full-page .floating-footer button {
                         height: 58px;
                         width: 100%;
-                        xmax-width: 305px;
+                        /* max-width: 305px; */
                         margin: 0 auto;
                         background-color: #d4d9dd;
                         color: #fff;
@@ -1587,6 +1589,25 @@
                     .scrollLock {
                         overflow: hidden;
                     }
+
+                    /* 2025-04-18 추가 */
+                    .exp-page-wrap.common-wrap.full-page {
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                        height: 100vh;
+                        min-height: auto;
+                        z-index: 99999;
+                    }
+
+                    .exp-page-wrap.common-wrap.full-page header{
+                        position: static;
+                    }
+
+                    .exp-page-wrap.common-wrap.full-page .floating-footer {
+                        position: absolute;
+                        left: 0;
+                    }
                 </style>
                 <div class="exp-page-wrap common-wrap full-page">
                     <header> <button type="button" class="btn-header-left" style="z-index: 9999999"
@@ -1598,7 +1619,7 @@
                     <div class="exp-content common-content">
                         <div class="join-completed-box"> <img
                             class="img-complete-icon"
-                                src="/assets/theme/powderroom/images/img-complete@2x.png"
+                                src="https://cf.powderroom.mobi/assets/theme/powderroom/images/img-complete@2x.png"
                                 alt="応募が完了しました！">
                             <p class="complete-text">申し込みが完了しました！</p>
                             <div class="complete-text-sub">＊当選者の発表日は<span>2025.03.27</span>となります</div>
