@@ -533,6 +533,7 @@ button.toggle.off {
   border-top-right-radius: 24px;
 }
 
+#search-modal .modal-inner,
 #global-search-modal .modal-inner {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
