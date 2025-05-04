@@ -5502,7 +5502,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 /* �섏젙�� */
 .main-new-page-wrap header button:last-child {
   position: absolute;
-  right: 31px;
+  right: 15.56px;
   width: 20px;
   height: 20px;
 }
@@ -6482,7 +6482,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
 }
 
 .common-wrap header button.btn-header-right img {
-  width: 24px;
+  width: 20px;
 }
 
 .review-list-box .my-review-list li p.title {
@@ -8461,13 +8461,13 @@ header.detail-header {
 .common-wrap header button.btn-header-left.alarm-icon {
   left: unset !important;
   position: absolute;
-  right: 64px;
+  right: 59px;
   top: 15px;
 }
 
 .common-wrap header button.btn-header-left.alarm-icon img {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 .main-new-page-wrap.common-wrap
